@@ -5,6 +5,7 @@ from bs4 import BeautifulSoup
 from fpdf import FPDF
 import os
 from pathlib import Path
+import html5lib
 from unidecode import unidecode
 
 
