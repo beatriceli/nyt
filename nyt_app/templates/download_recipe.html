@@ -1,0 +1,17 @@
+<!-- download_recipe.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Downloader</title>
+</head>
+<body>
+    <h1>Recipe Downloader</h1>
+    <form action="{{ url_for('download_recipe') }}" method="post" onsubmit="clearUrlBox()">
+        <label for="url">Recipe URL:</label>
+        <input type="text" id="url" name="url" required>
+        <button type="submit">Download Recipe</button>
+    </form>
+</body>
+</html>

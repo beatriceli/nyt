@@ -1,0 +1,26 @@
+<!-- index.html -->
+<html>
+<body>
+    <h1>Recipe Downloader</h1>
+    <!-- description -->
+    <p>
+        This is a simple web app that allows you to download recipes from the New York Times Cooking website.
+        Simply copy the URL of the recipe you want to download, paste it into the box below, and click the
+        "Download Recipe" button. The recipe will be downloaded as a PDF file.
+    </p>
+
+    <form id="recipeForm" action="/download_recipe" method="post">
+        <label for="url">Enter NYT Cooking Recipe URL:</label>
+        <input type="text" id="url" name="url" required>
+        <button type="submit">Download Recipe</button>
+        <button type="button" onclick="clearUrl()">Clear</button>
+    </form>
+
+    <script>
+        // Function to clear the URL box
+        function clearUrl() {
+            document.getElementById("url").value = "";
+        }
+    </script>
+</body>
+</html>
