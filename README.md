@@ -15,6 +15,12 @@ nyt/
 └── requirements.txt
 ```
 
+## Install Dependencies
+To install packages, execute the following commands:
+
+```bash
+pip install -r requirements.txt
+```
 
 ## Usage
 ### Running the Flask App
