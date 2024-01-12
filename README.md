@@ -1,5 +1,6 @@
 Fun mini project to scrape recipes from NYT Cooking. 
 
+```plaintext
 nyt/
 │
 ├── nyt_app/
@@ -11,7 +12,8 @@ nyt/
 │
 ├── dig.py
 │
-├── requirements.txt
+└── requirements.txt
+```
 
 
 ## Usage
